@@ -1,0 +1,445 @@
+/* 
+&display=swap
+&subset=cyrillic-ext 
+*/
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular,700,900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Noto+Serif+Tamil:regular,900,900italic&display=swap&subset=cyrillic-ext");
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 16px; /* по умолчанию */
+}
+body {
+	line-height: 1;
+	font-family: "Roboto";
+	background: #f5f5f5;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	padding: 50px;
+}
+/* ------------------------------ */
+body {
+	font-size: 20px;
+}
+.header,
+.footer {
+	margin: 20px auto 20px auto;
+	padding: 10px;
+	max-width: 250px;
+	text-align: center;
+	font-size: 40px;
+	font-weight: 900;
+	border-bottom: 2px black solid;
+}
+
+.task1 {
+	background: url("../img/pexels-pixabay-2150.jpg");
+	width: 100%;
+}
+.task1 h2 {
+	margin: 0px 0px 20px 0px;
+	font-size: 30px;
+	font-weight: 900;
+	text-align: center;
+}
+.block {
+	margin: 0px 0px 10px 0px;
+	padding: 10px;
+	line-height: 30px;
+	font-weight: 900;
+	color: rgb(243, 235, 223);
+}
+.blocklist {
+	width: 300px;
+	margin: 20px auto 0px auto;
+	padding: 20px;
+	background: url("../img/pexels-alex-andrews-821644.jpg") 0 0 / cover no-repeat;
+}
+.blocklist li {
+	margin: 0px 0px 15px 30px;
+	font-size: 16px;
+	min-height: 30px;
+	background: url("../img/17999_bookmark_favorite_star_icon.png") 0 0 / 30px no-repeat;
+	padding: 0px 0px 0px 50px;
+}
+.block1 {
+	display: inline-block;
+	margin: 0px 50px 20px 120px;
+	padding: 200px 10px 10px 10px;
+	width: 350px;
+	text-align: center;
+	background: url("../img/neptun.jpg") 90px 20px / 160px 160px no-repeat,
+		linear-gradient(
+			to right,
+			rgba(103, 132, 219, 1) 10%,
+			rgba(117, 81, 219, 1) 34%,
+			rgba(102, 32, 201, 1) 51%,
+			rgba(9, 24, 232, 1) 100%
+		);
+}
+.block1text1 {
+	overflow: auto;
+	height: 200px;
+	background: url("../img/neptun.jpg") 10px 50px no-repeat;
+	color: rgb(88, 104, 175);
+}
+.block2 {
+	display: inline-block;
+	margin: 0px 50px 20px 0px;
+	padding: 10px;
+
+	width: 350px;
+	text-align: center;
+	background-image: linear-gradient(
+		to bottom,
+		rgb(210, 245, 247) 18%,
+		rgba(80, 244, 239, 1) 44%,
+		rgba(2, 172, 219, 1) 98%
+	);
+}
+.block2text2 {
+	overflow: auto;
+	height: 200px;
+	background: url("../img/uran.jpg") 100px 20px no-repeat;
+}
+.block3 {
+	display: inline-block;
+	margin: 0px 120px 20px 0px;
+	padding: 10px;
+
+	width: 350px;
+	text-align: center;
+	background-image: radial-gradient(
+		ellipse at center,
+		rgba(255, 229, 198, 1) 25%,
+		rgba(224, 190, 67, 1) 65%,
+		rgba(255, 119, 0, 1) 100%
+	);
+}
+.block3text3 {
+	overflow: auto;
+	height: 200px;
+	background: url("../img/saturn.jpg") 50% no-repeat;
+	color: rgb(240, 231, 116);
+}
+.block4 {
+	display: inline-block;
+	margin: 0px 20px 20px 20px;
+	padding: 10px;
+	text-align: center;
+	background: url("../img/yupiter.jpg") 0 0 space;
+}
+.block4 h2 {
+	color: white;
+}
+.block4text4 {
+	overflow: auto;
+	height: 200px;
+	color: white;
+}
+.block5 {
+	margin: 0px 20px 20px 20px;
+	padding: 10px;
+	text-align: center;
+	background: url("../img/mars.jpg") repeat-x;
+}
+.block5 h2 {
+	color: white;
+}
+.block5text5 {
+	overflow: auto;
+	height: 200px;
+	color: white;
+}
+.block6 {
+	margin: 0px 20px 20px 20px;
+	padding: 10px;
+	text-align: center;
+	background: url("../img/zemlya.jpg") 50% / cover no-repeat;
+}
+
+.block6text6 {
+	overflow: auto;
+	height: 200px;
+	color: white;
+}
+.block7 {
+	margin: 0px 20px 20px 20px;
+	padding: 10px;
+	text-align: center;
+}
+.block7 h2 {
+	color: white;
+}
+.block7text7 {
+	overflow: auto;
+	height: 200px;
+	color: white;
+	background: url("../img/venera.jpg") 0 0 / cover no-repeat;
+}
+.block8 {
+	margin: 0px 20px 20px 20px;
+	padding: 10px;
+	text-align: center;
+	background: url("../img/merkuriy.jpg") 0 0 / cover no-repeat;
+}
+.block8text8 {
+	overflow: auto;
+	height: 200px;
+	color: white;
+}
+.block9 {
+	margin: 0px 20px 20px 20px;
+	padding: 10px;
+	text-align: center;
+	background: url("../img/pluton.jpg") center top no-repeat, url("..//img/pluton.jpg") 50% / cover no-repeat;
+}
+.block9text9 {
+	overflow: auto;
+	height: 200px;
+	color: white;
+}
+.task2 {
+	font-family: "Noto Serif Tamil";
+	font-size: 20px;
+}
+.task2list {
+	margin: 0px -50px 20px -50px;
+	background: url("../img/pexels-nothing-ahead-3571551.jpg") 0 0 / cover no-repeat;
+}
+.list {
+	width: 600px;
+	margin: 0px auto 20px auto;
+	padding: 15px;
+	background: linear-gradient(
+		to right,
+		rgba(255, 255, 255, 1) 1%,
+		rgba(255, 255, 255, 0) 32%,
+		rgba(255, 255, 255, 0.38) 52%,
+		rgba(255, 255, 255, 1) 85%,
+		rgba(255, 255, 255, 1) 100%
+	);
+}
+.list li {
+	font-size: 18px;
+	font-weight: 900;
+	min-height: 70px;
+	line-height: 22px;
+	margin: 0px auto 0px auto;
+	padding: 25px 50px 0px 0px;
+	background: url("../img/3441000_astronomy_planet_rings_saturn_science_icon.png") right / 50px no-repeat;
+}
+.task2p2 {
+	margin: 0px 0px 20px 0px;
+	padding: 10px;
+	background: url("../img/Gears.png") 0 0 / cover no-repeat;
+	font-family: Roboto;
+	font-size: 14px;
+	line-height: 20px;
+}
+.contakt {
+	max-width: 500px;
+	margin: 0px 0px 0px auto;
+	padding: 10px;
+	background-color: rgb(210, 194, 224);
+}
+.adress {
+	margin: 0px 0px 10px 0px;
+	padding: 0px 0px 0px 40px;
+	background: url("../img/place_24px.png") 0 0 / 10px 14px no-repeat;
+}
+.tel {
+	margin: 0px 0px 10px 0px;
+	padding: 0px 0px 0px 40px;
+	background: url("../img/smartphone_24px.png") 0 0 / 16px 16px no-repeat;
+}
+.email {
+	margin: 0px 0px 10px 0px;
+	padding: 0px 0px 0px 40px;
+	background: url("../img/email_24px.png") 0 0 / 16px 16px no-repeat;
+}
+.vre {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 40px;
+	background: url("../img/timer_24px.png") 0 0 / 16px 16px no-repeat;
+}
+.task2p3 {
+	background: url("../img/BGImagep3.png") 0 0 / cover no-repeat;
+	width: 1440px;
+	margin: 0px auto 100px auto;
+}
+.task2p3 .task2p3text {
+	max-width: 583px;
+	margin: 0px 647px 78px 210px;
+	padding-top: 280px;
+
+	font-family: Roboto;
+	font-weight: 900;
+	font-size: 56px;
+	line-height: 56px;
+	color: #ffffff;
+}
+.button {
+	display: inline-block;
+	margin: 0px 0px 280px 210px;
+	padding: 10px 60px 10px 10px;
+	color: white;
+	background: url("../img/ButtonTreatment48px.png") right / 50px no-repeat #c40b0b;
+	font-family: "Roboto";
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 24px;
+}
+.doptask {
+	margin: 0px auto 100px auto;
+	padding: 0px 70px 85px 30px;
+	background: url("../img/dopImage.png") 752px 0 / 498px 315px no-repeat,
+		url("../img/BGpImage.png") 0 80px / cover no-repeat;
+	font-size: 0px;
+	font-family: "Roboto";
+}
+
+.doptasktitle {
+	width: 411px;
+	margin: 0px 4px 80px 180px;
+	padding-top: 202px;
+}
+
+.doptasktitle h2 {
+	margin: 0px 0px 32px 0px;
+	padding: 5px 5px 5px 30px;
+	background: url("../img/Overlineiconp.png") left / 18px no-repeat;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 24px;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	color: #d5d5d5;
+}
+.doptask .text {
+	margin: 0px 0px 0px 0px;
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 42px;
+	color: #ffffff;
+}
+
+.doptaskmenu {
+	margin: 0px auto 74px auto;
+	padding: 10px;
+	width: 1200px;
+}
+.p1 {
+	width: 247px;
+	height: 86px;
+	display: inline-block;
+	margin: 0px 24px 0px 0px;
+	padding: 55px 0px 3px 85px;
+	color: white;
+	background: url("../img/car_oil-24x.png") 0 11px / 76px 76px no-repeat,
+		url("../img/16k+.png") 86px 11px / 150px 42px no-repeat;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.15px;
+}
+.p2 {
+	width: 247px;
+	height: 76px;
+	display: inline;
+	margin: 0px 24px 0px 0px;
+	padding: 67px 0px 3px 88px;
+	color: white;
+	background: url("../img/p2.png") 0 11px / 76px 76px no-repeat,
+		url("../img/13k+.png") 87px 11px / 150px 42px no-repeat;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.15px;
+}
+.p3 {
+	width: 257px;
+	height: 76px;
+	display: inline;
+	margin: 0px 24px 0px 0px;
+	padding: 67px 0px 3px 108px;
+	color: white;
+	background: url("../img/p3.png") 0 11px / 76px 76px no-repeat,
+		url("../img/16k+.png") 87px 11px / 150px 42px no-repeat;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.15px;
+}
+.p4 {
+	width: 247px;
+	height: 76px;
+	display: inline;
+	margin: 0px 24px 0px 0px;
+	padding: 67px 0px 3px 118px;
+	color: white;
+	background: url("../img/p4x.png") 0 11px / 76px 76px no-repeat,
+		url("../img/11\,500+.png") 87px 11px / 150px 42px no-repeat;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.15px;
+}
+.doptaskfooter {
+	width: 1180px;
+	margin: 0px auto -172px auto;
+	padding: 10px;
+	background-color: white;
+}
+.doptaskfooter p {
+	display: inline-block;
+	margin: 43px 101px 48px 70px;
+	width: 562px;
+	font-family: Roboto;
+	font-weight: 900;
+	font-size: 24px;
+	line-height: 30px;
+	color: #02133c;
+}
+.doptaskfooter a {
+	display: inline-block;
+	width: 211px;
+	margin: 49px 76px 53px 0px;
+	padding: 10px 60px 10px 10px;
+	color: white;
+	background: url("../img/ButtonTreatment48px.png") right / 50px no-repeat #c40b0b;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 24px;
+}
