@@ -82,6 +82,7 @@ body {
 	text-align: center;
 }
 .block {
+	margin: 0px 0px 10px 0px;
 	padding: 10px;
 	line-height: 30px;
 	font-weight: 900;
@@ -91,7 +92,7 @@ body {
 	width: 300px;
 	margin: 20px auto 0px auto;
 	padding: 20px;
-	background: url("../img/pexels-alex-andrews-821644.jpg") center 50% no-repeat;
+	background: url("../img/pexels-alex-andrews-821644.jpg") 0 0 / cover no-repeat;
 }
 .blocklist li {
 	margin: 0px 0px 15px 30px;
@@ -301,9 +302,8 @@ body {
 	background: url("../img/timer_24px.png") 0 0 / 16px 16px no-repeat;
 }
 .task2p3 {
-	background: url("../img/BGImagep3.png") 0 0 / auto no-repeat;
+	background: url("../img/BGImagep3.png") 0 0 / cover no-repeat;
 	width: 1440px;
-	height: 900px;
 	margin: 0px auto 100px auto;
 }
 .task2p3 .task2p3text {
@@ -319,7 +319,7 @@ body {
 }
 .button {
 	display: inline-block;
-	margin: 0px 0px 0px 210px;
+	margin: 0px 0px 280px 210px;
 	padding: 10px 60px 10px 10px;
 	color: white;
 	background: url("../img/ButtonTreatment48px.png") right / 50px no-repeat #c40b0b;
@@ -329,19 +329,18 @@ body {
 	line-height: 24px;
 }
 .doptask {
-	width: 1140px;
-	margin: 0px auto 20px auto;
-	padding: 0px 210px 85px 30px;
-	background: url("../img/dopImage.png") 732px 0 / 498px 315px no-repeat,
-		url("../img/BGpImage.png") 0 -80px / cover no-repeat;
+	margin: 0px auto 100px auto;
+	padding: 0px 70px 85px 30px;
+	background: url("../img/dopImage.png") 752px 0 / 498px 315px no-repeat,
+		url("../img/BGpImage.png") 0 80px / cover no-repeat;
 	font-size: 0px;
 	font-family: "Roboto";
 }
 
 .doptasktitle {
 	width: 411px;
-	margin: 0px 111px 80px 210px;
-	padding-top: 122px;
+	margin: 0px 4px 80px 180px;
+	padding-top: 202px;
 }
 
 .doptasktitle h2 {
@@ -364,7 +363,7 @@ body {
 }
 
 .doptaskmenu {
-	margin: 0px 100px 74px 110px;
+	margin: 0px auto 74px auto;
 	padding: 10px;
 	width: 1200px;
 }
@@ -421,7 +420,8 @@ body {
 	letter-spacing: 0.15px;
 }
 .doptaskfooter {
-	margin: 0px 110px -72px 110px;
+	width: 1180px;
+	margin: 0px auto -172px auto;
 	padding: 10px;
 	background-color: white;
 }
@@ -438,7 +438,7 @@ body {
 .doptaskfooter a {
 	display: inline-block;
 	width: 211px;
-	margin: 49px 76px 53px;
+	margin: 49px 76px 53px 0px;
 	padding: 10px 60px 10px 10px;
 	color: white;
 	background: url("../img/ButtonTreatment48px.png") right / 50px no-repeat #c40b0b;
